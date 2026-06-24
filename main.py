@@ -17,7 +17,7 @@ def inisialisasi_db():
             username TEXT UNIQUE,
             password TEXT
         ) 
-    ''') 
+    ''')  
     
     # 2. Tabel Fasilitas (ruangan_lapangan)
     cursor.execute('''
