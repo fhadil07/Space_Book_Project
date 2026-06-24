@@ -2,7 +2,7 @@ import sqlite3
 from datetime import datetime
 
 DB_NAME = "space_book.db"
-
+ 
 def inisialisasi_db():
     """Fungsi 1: Membuat database dan tabel jika belum ada"""
     conn = sqlite3.connect(DB_NAME)
@@ -16,7 +16,7 @@ def inisialisasi_db():
             no_hp TEXT,
             username TEXT UNIQUE,
             password TEXT
-        )
+        ) 
     ''') 
     
     # 2. Tabel Fasilitas (ruangan_lapangan)
